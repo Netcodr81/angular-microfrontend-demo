@@ -1,0 +1,5 @@
+{
+	"todo": "http://localhost:4200/remoteEntry.json",
+	"admin": "http://localhost:4200/remoteEntry.json",
+	"dashboard": "http://localhost:4200/remoteEntry.json"
+}
