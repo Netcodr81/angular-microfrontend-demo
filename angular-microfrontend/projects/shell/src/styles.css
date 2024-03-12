@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+.wrapper {
+  height: auto;
+  padding: 20px;
+  width: 100%;
+
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,body,app-root{
+  height: 100%;
+
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+}

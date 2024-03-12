@@ -1,11 +1,11 @@
-<ul>
-  <li><a routerLink="/">Home</a></li>
+<!-- Header -->
+<shell-header></shell-header>
 
-  <li><a routerLink="/todo">ToDo App</a></li>
+<!-- Wrapper -->
+<div class="wrapper">
+  <router-outlet></router-outlet>
+</div>
 
-  <li><a routerLink="/dashboard">Dashboard App</a></li>
 
-  <li><a routerLink="/admin">Admin App</a></li>
-</ul>
-
-<router-outlet></router-outlet>
+<!-- Footer -->
+<shell-footer></shell-footer>
