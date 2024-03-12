@@ -5,7 +5,8 @@ module.exports = withNativeFederation({
   name: 'todo',
 
   exposes: {
-    './Component': './projects/todo/src/app/app.component.ts',
+    // './todo_app': './projects/todo/src/app/app.component.ts',
+    './todo_routes': '././projects/todo/src/app/app.routes.ts'
   },
 
   shared: {
@@ -19,5 +20,5 @@ module.exports = withNativeFederation({
     'rxjs/webSocket',
     // Add further packages you don't need at runtime
   ]
-  
+
 });

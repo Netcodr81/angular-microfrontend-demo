@@ -5,7 +5,8 @@ module.exports = withNativeFederation({
   name: 'dashboard',
 
   exposes: {
-    './Component': './projects/dashboard/src/app/app.component.ts',
+    // './dashboard_app': './projects/dashboard/src/app/app.component.ts',
+    './dashboard_routes': '././projects/dashboard/src/app/app.routes.ts'
   },
 
   shared: {
@@ -19,5 +20,5 @@ module.exports = withNativeFederation({
     'rxjs/webSocket',
     // Add further packages you don't need at runtime
   ]
-  
+
 });
